@@ -1,0 +1,10 @@
+t=int(input(""))
+while(t>0):
+    str=input("")
+    zz=str.count("0")
+    oo=str.count("1")
+    if(min(zz,oo)%2==0):
+        print("NET")
+    else:
+        print("DA")
+    t-=1
